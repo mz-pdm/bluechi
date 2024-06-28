@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+execute_after_dh_auto_configure:
+	meson configure -Dwith_selinux=false
+
+override_dh_install:
+	meson install -C build --tags bluechi-controller --dest=debian/bluechi-controller
+	meson install -C build --tags bluechi-agent --dest=debian/bluechi-agent
+	meson install -C build --tags bluechictl --dest=debian/bluechictl

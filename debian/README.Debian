@@ -1,0 +1,9 @@
+Experimental packaging.
+
+To do:
+
+- Use libinih1 Debian package instead of the inih submodule.
+- What to do about hashmap.c subproject?  If it is not packaged separately then its files must be added
+  to debian/copyright.
+
+ -- Milan Zamazal <pdm@debian.org>, Thu,  4 Jul 2024 20:40:23 +0200

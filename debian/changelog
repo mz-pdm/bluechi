@@ -1,0 +1,5 @@
+bluechi (0.8.0+git20240704-1) unstable; urgency=low
+
+  * Initial packaging.
+
+ -- Milan Zamazal <pdm@debian.org>  Thu, 04 Jul 2024 19:58:38 +0200
